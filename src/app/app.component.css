@@ -1,9 +1,4 @@
-/*
-font-family: 'Share Tech Mono', monospace;
-font-family: 'Source Sans Pro', sans-serif;
-font-family: 'Aldrich', sans-serif;
-font-family: 'VT323', monospace;
-*/
+
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Source+Sans+Pro&display=swap&family=Aldrich&family=VT323&display=swap');
 
 *{
@@ -50,8 +45,7 @@ font-family: 'VT323', monospace;
 .visualisation-container
 {
   height:auto
-/*  overflow: hidden;
-  height: 2rem;*/
+
 }
 
 .title{
@@ -112,7 +106,7 @@ h1{
 
 .time-displayer{
   font-family: 'Aldrich', sans-serif;
-  /*font-family: 'VT323', monospace;*/
+ 
   color: lime;
   background: black;
   width: 100%;
@@ -130,13 +124,10 @@ h1{
   padding-left: .25rem;
 }
 
-/* input type range */
 
-/* avalaible for all range input*/
-input[type=range] {   /*nécessaire pour Chrome */
-  padding: 0;                   /* nécessaire pour IE */
-  font: inherit;                /* même rendu suivant font document */
-  outline: none;
+input[type=range] {   
+  padding: 0;                  
+  font: inherit;               
   cursor: pointer;
 }
 
@@ -150,7 +141,7 @@ input[type=range] {   /*nécessaire pour Chrome */
   border: 2px inset #555265;
 }
 
-     /* Chrome */
+
 
 .volume-controller::-webkit-slider-thumb {
   width: 1.75rem;
@@ -168,7 +159,6 @@ input[type=range] {   /*nécessaire pour Chrome */
   border-radius: 25px;
 }
 
-     /* firefox */
 
 .volume-controller::-moz-range-thumb {
   width: 1.75rem;
@@ -186,7 +176,7 @@ input[type=range] {   /*nécessaire pour Chrome */
   border-radius: 25px;
 }
 
-    /* IE Edge */
+ 
 
 input[type=range]::-ms-thumb {
   width: 1.75rem;
@@ -204,7 +194,7 @@ input[type=range]::-ms-thumb {
   border-radius: 25px;
 }
 
-/* progress bar */
+
 
 .progress-bar{
   margin: .75rem 0;
@@ -212,10 +202,9 @@ input[type=range]::-ms-thumb {
   height: 1.5rem;
   background: transparent;
   border: 2px inset #555265;
-  overflow: hidden; /*erase the shadow of the thumb*/
-}
+  overflow: hidden; 
 
-    /* Chrome */
+}
 
 .progress-bar::-webkit-slider-thumb {
   width: 3.5rem;
@@ -224,10 +213,10 @@ input[type=range]::-ms-thumb {
   border: 5px outset #DDCBA2;
   position: relative;
   top: calc(-2px - 50%);
-  box-shadow: -600px 0 0 600px #F9EBBC; /* create a shadow before the thumb for the range progress*/
+  box-shadow: -600px 0 0 600px #F9EBBC; 
 }
 
-     /* firefox */
+
 
 .progress-bar::-moz-range-thumb {
   width: 3.5rem;
@@ -243,7 +232,7 @@ input[type=range]::-ms-thumb {
   height: 100%;
 }
 
-    /* IE Edge */
+
 
 .volume-controller::-ms-thumb {
   width: 3.5rem;
@@ -258,7 +247,7 @@ input[type=range]::-ms-thumb {
   background-color: #F9EBBC; 
 }
 
-/* end of input type range */
+
 
 .btn-container{
   width: 100%;
@@ -327,7 +316,6 @@ button:after{
   border: 5px inset #ADBAC7;
 }
 
-/* here i am */
 
 .playlist{
   width: 95%;
